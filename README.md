@@ -50,7 +50,7 @@ $app->config('language.id');
 // 'en'
 
 $app->config('language.name');
-// 'English
+// 'English'
 ```
 
 Building a list of language switches is equaly simple:
@@ -66,7 +66,7 @@ Finally, a user can be redirected to a specific page after the language was
 changed:
 
 ```php
-$app->redirect($app->url('lang') . '?lang=fr&next=/page");
+$app->redirect($app->url('lang') . "?lang=fr&next=/page");
 // Redirect the user to '/fr/page'
 ```
 
