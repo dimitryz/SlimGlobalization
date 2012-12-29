@@ -65,7 +65,7 @@ class I18n extends \Slim\Middleware {
         $app = $this->app;
         $_this = $this;
 
-        $app->get('/switch', array(&$this, 'actionSwitchLanguage'))
+        $app->get('/language', array(&$this, 'actionSwitchLanguage'))
             ->name('lang');
     }
 
